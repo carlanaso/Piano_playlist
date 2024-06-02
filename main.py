@@ -11,20 +11,20 @@ from glob import glob
 
 # Create a dictionary to store the audio files for each year
 audio_files = {
-    2004: 'C:/Users/carla/maestro-v3.0.0/2004',
-    2006: 'C:/Users/carla/maestro-v3.0.0/2006',
-    2008: 'C:/Users/carla/maestro-v3.0.0/2008',
-    2009: 'C:/Users/carla/maestro-v3.0.0/2009',
-    2011: 'C:/Users/carla/maestro-v3.0.0/2011',
-    2013: 'C:/Users/carla/maestro-v3.0.0/2013',
-    2014: 'C:/Users/carla/maestro-v3.0.0/2014',
-    2015: 'C:/Users/carla/maestro-v3.0.0/2015',
-    2017: 'C:/Users/carla/maestro-v3.0.0/2017',
-    2018: 'C:/Users/carla/maestro-v3.0.0/2018'
+    2004: '/maestro-v3.0.0/2004',
+    2006: '/maestro-v3.0.0/2006',
+    2008: '/maestro-v3.0.0/2008',
+    2009: '/maestro-v3.0.0/2009',
+    2011: '/maestro-v3.0.0/2011',
+    2013: '/maestro-v3.0.0/2013',
+    2014: '/maestro-v3.0.0/2014',
+    2015: '/maestro-v3.0.0/2015',
+    2017: '/maestro-v3.0.0/2017',
+    2018: '/maestro-v3.0.0/2018'
 }
 
 
-metadata = 'C:/Users/carla/maestro-v3.0.0.csv'
+metadata = '/maestro-v3.0.0.csv'
 
 class IntroductionPage(QWidget):
     def __init__(self):
